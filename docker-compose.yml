@@ -13,8 +13,8 @@ services:
       # Variables d'environnement pour le développement
       - APP_ENV=local
       - PHP_IDE_CONFIG=serverName=docker
-    env_file:
-      - src/.env
+    # env_file:
+      #- src/.env
     ports:
       - "9000:9000"
     command: php-fpm
