@@ -2,3 +2,4 @@ node_modules/
 mysql/
 .vscode/
 .secrets/
+src/
